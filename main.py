@@ -1,6 +1,7 @@
 import pyttsx3
 import fitz
 
+
 s = pyttsx3.init()
 
 with fitz.open("Programming task.pdf") as doc:
